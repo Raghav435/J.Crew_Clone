@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/cart.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800
+&family=Merriweather:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+<!-- content start -->
+
+<div id="body"></div>
+
+<div id="heading">
+  <h6>SHOPPING BAG</h6>
+</div>
+
+<!-- Products Added -->
+
+  </div>
+  <main>
+  <table>
+    <thead>
+      <tr>
+        <th>Sr.N.</th>
+        <th>Items</th>
+        <th>Qty</th>
+        <th>Price</th>
+        <th>Items Total</th>
+      </tr>
+    </thead>
+    <tbody id="body1"></tbody>
+  </table>
+</main>
+
+
+<div id="HeadBoox"> <!--maindiv-------------------->
+     
+<div id="Leftdiv" > 
+     
+   <div id="LeftItems">   <!-- Left items-------------------->
+    <h2 style="font-weight: lighter;">SAVED FOR LATER</h2>
+    <div id="Savelater"></div>
+     </div>
+   </div>
+
+<div id="Rightdiv">  <!-- price-------------------->
+        
+      <div id="rightPrice">   <!-- total & sub total-------------------->
+        
+        <div class="pink98"></div>
+       <div id="updiv">
+         <p id="SubTotal">Item Sub Total: <span class="rupee₹₹">INR<h5 class="priceshow"></h5></span></p> <br>
+       </div>
+
+       <div class="pink99"></div>
+         <div id="dowdiv">
+           <p id="Totalinhand" >Estimated Total:  <span class="rupee₹₹">INR<h5 class="priceshow2"></h5></span></p> <br>
+         </div>
+      </div>
+
+      <div id="placeShop"> 
+           
+            <!-- Check out div-------------------->
+
+            <div>
+              <span><a href="checkout.html"><button onclick="placeorder()" class="end-btn">Check Out Now</button></a></span>
+            </div>
+            <div id="placeShopPara" style="text-align: center; padding-right: 7px;">
+              <p>
+                By clicking ‘Check Out Now’, you will be redirected to the eShopWorld checkout page where payment will be taken and your order fulfilled by eShopWorld, J.Crew's preferred partner for international sales.
+              </p>
+            </div>
+            <div id="promoCode">
+              <h3>Add a promo</h3>
+              <p>20% flat off on using IndusInd credit card</p>
+              <form action="" id="form"><input id="Couponbox" type="text" placeholder="Promo"  type="submit"  /><span><input id="couponbtn" type="submit" value="APPLY" placeholder="APPlY COUPON HERE" onclick="valid() ;"></span></form>
+            </div>
+      </div>
+</div>
+</div>
+</div>
+
+<!-- //------------------Footer Div-----------// -->
+
+<div id="footer"></div>
+
+<!----------- content end -------------------->
+
+</body>
+</html>
+
+<script src="./scripts/cart.js"></script>
+<script src="./scripts/nav.js" type="module"></script>
+<script src="./scripts/foot.js" type="module"></script>
