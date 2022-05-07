@@ -43,6 +43,7 @@
     height: 30px;
     margin-left:0px;
     margin-top: 5px;
+    cursor:pointer;
     border-left: 1px solid grey;
    
 }
