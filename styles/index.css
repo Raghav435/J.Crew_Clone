@@ -1,0 +1,370 @@
+#img1{
+    background-image: url("https://www.jcrew.com/s7-img-facade/BI573_PT1349_d3?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=600&hei=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#img1>div{
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    line-height: 10px;
+}
+#pr1{
+    display: flex;
+}
+#img2{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    padding: 0px 5px;
+}
+#img2>img{
+    width: 223px;
+}
+#l2{
+    font-style: italic;
+    font-size: 70px;
+    color: rgb(248,217,28);
+    margin-top: 40px
+
+}
+#l3{
+    
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+}
+.l{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+}
+#img1 a{
+    font-size: large;
+    color: white;
+}
+#img1 h3{
+    margin-top: 50px;
+}
+#haq{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 5px;
+}
+#haq sup{
+    text-decoration: underline;
+}
+#pr2{
+    text-align: center;
+    padding: 10px 5px;
+    margin-top: 20px;
+}
+
+#pr3 a{
+    color: white;
+    font-size: 18px;
+}
+#pr3 h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+#land1{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 50px;
+}
+#pr3{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#land2{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+
+}
+#land2 p{
+    
+    font-style: italic;
+    
+}
+#land3{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 50px;
+}
+#land4{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/linen-shop/2022may_0426_linen_w_img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#land5{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_new_img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+#land6{
+    background-image: url("https://www.jcrew.com/s7-img-facade/BH469_SU9273_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color:rgb(49, 49, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding: 50px;
+    line-height: 10px;
+}
+#land6 a{
+    color:rgb(49, 49, 28) ;
+}
+#land7{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/cc-mini-me/2022may_0426_cc_mommyandme_img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    /* align-items: center; */
+    padding: 10px;
+    color: rgb(228, 112, 69);
+}
+#land7 a{
+    color: rgb(228, 112, 69);
+}
+#land8{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/cc_newarrivals/2022may_0426_na_b_img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    /* align-items: center; */
+    padding: 10px;
+    
+}
+#land8 a{
+    color: blue;
+    
+}
+#pr4{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+#pr4>p{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+#sub1pr5{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    gap: 190px;
+
+}
+#sub2pr5{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 40px;
+
+}
+#sub2pr5 img{
+
+    width: 100%;
+
+}
+
+#pr5{
+    background-color: rgb(231,201,193);
+    padding: 80px 0px;
+}
+#sub1pr5 img{
+    
+   color: yellow;
+    height: 200px;
+}
+
+#sub3pr5>div{
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    justify-content: center;
+}
+#sub3pr5{
+    width: 80%;
+    margin: auto;
+}
+#sub3pr5 img{
+    width: 100%;
+}
+#pr6{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+   
+    padding: 40px 0px;
+}
+#pr6>div{
+   
+    display: flex;
+   
+    align-items: center;
+   
+    
+}
+#subpr6{
+    
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+
+    
+    
+}
+
+#pr6img1{
+    background-image: url("https://www.jcrew.com/s7-img-facade/BA400_OR5362_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+}
+#pr6img2{
+    background-image: url("https://www.jcrew.com/s7-img-facade/BI759_OR5362_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px; 
+     width: 300px;
+}
+#pr6img3{
+    background-image: url("https://www.jcrew.com/s7-img-facade/BI409_YD1226_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px; 
+    width: 300px; 
+}
+#pr6img4{
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px; 
+    width: 300px;
+    
+
+}
+#spr61,#spr62,#spr63,#spr64{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+#pr6img1:hover{
+    cursor: pointer;
+}
+#pr6img2:hover{
+    cursor: pointer;
+}
+#pr6img3:hover{
+    cursor: pointer;
+}
+#pr6img4:hover{
+    cursor: pointer;
+}
+#sub2pr7{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+#sub2pr7>div{
+    text-align: center;
+}
+#sub2pr7 img{
+    width: 100%;
+}
+#landing h1{
+   font-weight: lighter;
+   font-size: 45px;
+}
+#landing h2{
+    font-weight: lighter;
+    
+}
+#pr2 p,#pr3 p,#pr4 p,#pr5 p,#pr6 p,#pr7 p{
+    font-size: 22px;
+}
+#pr4 a,#pr5 a,#pr6 a,#pr7 a{
+    color: black;
+}
+
+#pr41:hover,#pr42:hover,#pr43:hover,#pr44:hover{
+
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+#pr41,#pr42,#pr43,#pr44{
+    padding: 0px;
+}
