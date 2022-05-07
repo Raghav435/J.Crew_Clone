@@ -99,11 +99,13 @@
 #email{
     padding: 12px;
     width: 320px;
+    outline: none;
 }
 #pwd{
     border: none;
     padding: 12px;
     width: 280px;
+    outline: none;
 }
 #country{
     padding: 8px;
