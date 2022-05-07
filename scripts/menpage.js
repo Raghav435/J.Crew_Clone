@@ -1,5 +1,5 @@
 
-import { mens } from "./components/men.js";
+import { mens } from "../components/men.js";
 
 let maindive=document.querySelector(".data")
 
@@ -22,28 +22,32 @@ let btnmove=(btn)=>{
 let data=JSON.parse(localStorage.getItem("cart"))||[];
 let setdata=(ele)=>{
   data.push(ele)
+//   alert("Item Added to Cart")
     localStorage.setItem("cart",JSON.stringify(data))
+    let x=JSON.parse(localStorage.getItem("cart"))
+    document.getElementById("navlen").innerText=x.length;
 }
 
 
 let displayData=(men)=>{
     // console.log("men",men)
     maindive.innerHTML=null
-    men.forEach((ele,btn)=>{
+    men.forEach((ele,btn,span)=>{
     // console.log(typeof ele.price,ele.price)
 
     let div1=document.createElement("div")
     div1.setAttribute("id","div1")
     let img=document.createElement("img")
-    img.src=ele.imageUrl;
+    img.src=ele.img;
+    img.setAttribute("class","csimg")
 
-    let span=document.createElement("span")
-    span.setAttribute("id","span")
+    span=document.createElement("span")
+    span.setAttribute("class","span")
     span.innerHTML="<span>&#9825</span>"
     // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEQ9Tf-WEBVla9aEPvqAcra5Qk0ygt5Zn8Q&usqp=CAU"
 
     btn = document.createElement("button")
-    btn.setAttribute("id","btn")
+    btn.setAttribute("id","csbtn")
     btn.innerText="QUICK SHOP"
 
   
@@ -68,7 +72,7 @@ btn.addEventListener("click",()=>{
     p1.innerText=ele.name;
 
     let h3=document.createElement("h3")
-    h3.innerText=ele.price;
+    h3.innerText="INR "+ele.price;
 
     let p2=document.createElement("p")
     p2.setAttribute("id","p")

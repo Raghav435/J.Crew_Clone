@@ -79,7 +79,7 @@ var items1 = document.createElement("div")
 
 var img = document.createElement("img");
     img.setAttribute("id","Fimg")
-    img.src = elem.image_url;
+    img.src = elem.img;
     img.style.marginRight="10%"
 
 var name = document.createElement("p");
@@ -88,6 +88,7 @@ var name = document.createElement("p");
 
 
 var qtyn = document.createElement("td")
+qtyn.setAttribute("class","qtynsl")
 var subdiv= document.createElement("div")
     subdiv.setAttribute("id","qtydiv")
 
@@ -213,18 +214,21 @@ function addtoSavelater(elem){
 let later = JSON.parse(localStorage.getItem("saveL"));
 later.map(function(elem,index){
   let box = document.createElement("div");
+  box.setAttribute("class","boxlater")
 
     let img = document.createElement("img");
         img.setAttribute("id","Saveltrimg") ;
-        img.src = elem.image_url;
+        img.src = elem.img;
 
-    let name = document.createElement("p");
+    let name = document.createElement("h3");
         name.setAttribute("id","Saveltrname") ;
         name.textContent = elem.name;
+        name.style.fontSize="18px"
+        // name.style.fontWeight="lighter"
 
    let price = document.createElement("p");
        price.setAttribute("id","Saveltrprice") ;
-       price.innerText = elem.price;
+       price.innerText = "INR "+elem.price;
 
        box.append(img, name, price);
        document.querySelector("#Savelater").append(box);

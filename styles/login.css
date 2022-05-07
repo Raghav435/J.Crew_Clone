@@ -37,6 +37,7 @@
       
 }
 #password-control{
+    cursor: pointer;
     border:none;
     background-color: white;
     padding:5px;
@@ -101,12 +102,14 @@
     padding: 12px;
     outline:none;
     width: 320px;
+    outline: none;
 }
 #pwdlogin{
     border: none;
     padding: 12px;
     outline:none;
     width: 300px;
+    outline: none;
 }
 .btn1{
     padding: 13px;

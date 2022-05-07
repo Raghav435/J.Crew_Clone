@@ -1,5 +1,6 @@
 function showModal(){
-    document.querySelector("#s_mainbox").classList.toggle("isactive");
+    window.location.href = "index.html";
+    // document.querySelector("#s_mainbox").classList.toggle("isactive");
 }
 
 document.querySelector("#password-control").innerHTML+='<img id="eye-show" src="./icons/eye.png">';

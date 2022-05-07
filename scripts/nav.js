@@ -17,6 +17,13 @@ document.getElementById("navbarsearch").addEventListener("keypress", function(ev
 })
 
 let myNew=()=>{
+    let x=document.getElementById("new")
+    // x.style.display="block"
+    x.style.display="flex"
+
+    
+
+    
     document.getElementById("women").style.display="none"
     document.getElementById("men").style.display="none"
     document.getElementById("kids").style.display="none"
@@ -25,20 +32,24 @@ let myNew=()=>{
     document.getElementById("home").style.display="none"
     document.getElementById("stories").style.display="none"
     document.getElementById("sale").style.display="none"
-    let x=document.getElementById("new")
-    // x.style.display="block"
-    x.style.display="flex"
+    
+    
+    
+    
 
 }
 let hideNew=()=>{
+   
     let x=document.getElementById("new")
     x.style.display="none"
+    
 }
 
 
 
 
 let mywomen=()=>{
+    
     document.getElementById("men").style.display="none"
     document.getElementById("new").style.display="none"
     document.getElementById("kids").style.display="none"
@@ -76,6 +87,7 @@ let mymen=()=>{
 
 }
 let hidemen=()=>{
+
     let x=document.getElementById("men")
     x.style.display="none"
 }
@@ -254,4 +266,10 @@ if(c.length>0){
 }
 
 
+
+let gotoindex=()=>{
+    window.location.href="index.html"
+
+}
+document.getElementById("navimg").addEventListener("click",gotoindex);
 

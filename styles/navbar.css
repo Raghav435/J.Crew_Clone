@@ -49,6 +49,8 @@
 }
 #navsearch{
     border: 1px solid black;
+    /* width: 45%; */
+    margin-left: 45px;
 }
 #nav2{
     gap: 30px;
@@ -93,6 +95,7 @@
     background-color: white;
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
     
 }
 #women{
@@ -103,6 +106,7 @@
     background-color: white;
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
 }
 #men{
     display: none;
@@ -112,6 +116,7 @@
     background-color: white;
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
 }
 #kids{
     display: none;
@@ -121,6 +126,7 @@
     background-color: white;
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
 }
 #swim{
     display: none;
@@ -130,6 +136,7 @@
     background-color: white;
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
 }
 #cashmere{
     display: none;
@@ -139,6 +146,7 @@
     
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
    
 
 }
@@ -147,6 +155,7 @@
     background-color: white;
     padding: 0px 20px;
     font-size: 15px;
+    z-index: 1000;
 }
 #home{
     display: none;
@@ -156,6 +165,7 @@
     background-color: white;
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
 }
 #stories{
     
@@ -166,6 +176,7 @@
     background-color: white;
     width: 100%;
     font-size: 15px;
+    z-index: 1000;
 }
 #sale{
     display: none;
@@ -176,6 +187,7 @@
     width: 100%;
     padding: 10px 0px 45px 0px;
     font-size: 15px;
+    z-index: 1000;
 }
 #women4{
     width: 400px;
@@ -237,4 +249,7 @@
 }
 .navgray{
     color: gray;
+}
+#navimg{
+    cursor: pointer;
 }

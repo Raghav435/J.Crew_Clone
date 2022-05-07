@@ -1,10 +1,12 @@
-function showModal(){
-    document.querySelector("#s_mainbox").classList.toggle("isactive");
-}
 
-// document.querySelector("#password-control>span>img").addEventListener("click",(event)=>{
-//     console.log("clicked");
-// })
+function showModal(){
+    // document.querySelector("#s_mainbox").classList.toggle("isactive");
+   
+    window.location.href = "index.html";
+}
+document.getElementById("closebtn").addEventListener("click",showModal)
+
+
 
 document.querySelector("#password-control").innerHTML+='<img id="eye-show" src="./icons/eye.png">';
 document.querySelector("#password-control").addEventListener("click",(e)=>{
@@ -39,6 +41,7 @@ let register = (event) =>{
     alert(`Registered sucessfully as ${form_data.email}`);
 
     localStorage.setItem("UserSignCreds",JSON.stringify(userData));
+    
     
     window.location.href = "index.html";
 };

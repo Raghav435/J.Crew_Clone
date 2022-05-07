@@ -67,10 +67,11 @@ function paymentfun() {
     // // console.log(credentials)
     // localStorage.setItem("creds",JSON.stringify(credentials))
     // console.log(credentials)
-    if (enteredcardnumber == cardno && enteredcvv == cvv && enteredname1 == name2) {
+    if (enteredcardnumber.length == 16 && enteredcvv.length == 3 && enteredname1.length >0) {
         alert("Payment Successful");
         alert("Order Placed")
-
+        let x=[];
+        localStorage.setItem("cart",JSON.stringify(x))
         window.location.href = "index.html"
     }
     else {
