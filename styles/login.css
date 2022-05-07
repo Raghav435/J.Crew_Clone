@@ -99,11 +99,13 @@
 }
 #emaillogin{
     padding: 12px;
+    outline:none;
     width: 320px;
 }
 #pwdlogin{
     border: none;
     padding: 12px;
+    outline:none;
     width: 300px;
 }
 .btn1{
