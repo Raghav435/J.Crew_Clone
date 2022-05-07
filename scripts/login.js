@@ -1,12 +1,13 @@
 function showModal(){
-    document.querySelector("#s_mainbox").classList.toggle("isactive");
+    window.location.href = "index.html";
+    // document.querySelector("#s_mainbox").classList.toggle("isactive");
 }
 
 document.querySelector("#password-control").innerHTML+='<img id="eye-show" src="./icons/eye.png">';
 document.querySelector("#password-control").addEventListener("click",(e)=>{
     console.log(e);
     e.preventDefault();
-    let ele=document.querySelector("#pwd");
+    let ele=document.querySelector("#pwdlogin");
     let btn=document.querySelector("#password-control");
     if(ele.getAttribute("type")==="password"){
         ele.setAttribute("type","text");

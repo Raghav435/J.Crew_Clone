@@ -1,4 +1,4 @@
-import { women } from "./components/men.js";
+import { women } from "../components/men.js";
 let maindive=document.querySelector(".data")
 
 let men = women();
@@ -22,7 +22,10 @@ let btnmove=(btn)=>{
 let data=JSON.parse(localStorage.getItem("cart"))||[];
 let setdata=(ele)=>{
   data.push(ele)
+//   alert("Item Added to Cart")
     localStorage.setItem("cart",JSON.stringify(data))
+    let x=JSON.parse(localStorage.getItem("cart"))
+    document.getElementById("navlen").innerText=x.length;
 }
 
 
@@ -36,16 +39,17 @@ men.forEach((ele,btn)=>{
     div1.setAttribute("id","div1")
 
     let img=document.createElement("img")
-    img.src=ele.image;
+    img.src=ele.img;
+    img.setAttribute("class","csimg")
 
     let span=document.createElement("span")
 
-    span.setAttribute("id","span")
+    span.setAttribute("class","span")
     span.innerHTML="<span>&#9825</span>"
    
 
     btn = document.createElement("button")
-    btn.setAttribute("id","btn")
+    btn.setAttribute("id","csbtn")
     btn.innerText="QUICK SHOP"
 
     btn.addEventListener("click",()=>{
@@ -66,10 +70,10 @@ men.forEach((ele,btn)=>{
     h5.innerText=ele.featuredTag 
 
     let p1=document.createElement("p")
-    p1.innerText=ele.title;
+    p1.innerText=ele.name;
 
     let h3=document.createElement("h3")
-    h3.innerText=ele.price;
+    h3.innerText="INR "+ele.price;
 
     let p2=document.createElement("p")
     p2.setAttribute("id","p")

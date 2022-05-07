@@ -44,12 +44,12 @@
     color: gray;
 }
 
-input {
+#em {
     width: 300px;
     padding: 8px;
 }
 
-button {
+.downbtn {
     width: auto;
     padding: 8px;
     background-color: black;

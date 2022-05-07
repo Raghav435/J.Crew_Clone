@@ -19,7 +19,7 @@ let navbar=()=>{
             <input id="navbarsearch" type="text" placeholder="Search J.Crew" >
         </div>
         <div id="navsign">
-            <p><a href="login.html">Sign In</a></p>
+            <p><a href="login.html" id="navacc">Sign In</a></p>
             <p style="font-size: 30px;">&#9825</p>
             <p><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><sup><sup id="navlen"></sup></sup></a></p>
         </div>
