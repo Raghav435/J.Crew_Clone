@@ -6,7 +6,7 @@ document.querySelector("#password-control").innerHTML+='<img id="eye-show" src="
 document.querySelector("#password-control").addEventListener("click",(e)=>{
     console.log(e);
     e.preventDefault();
-    let ele=document.querySelector("#pwd");
+    let ele=document.querySelector("#pwdlogin");
     let btn=document.querySelector("#password-control");
     if(ele.getAttribute("type")==="password"){
         ele.setAttribute("type","text");
