@@ -6,10 +6,10 @@ document.getElementById("body").innerHTML=navbar()
 
 
 let dltfromstorage=()=>{
-    // let dl=JSON.parse(localStorage.getItem("sign"));
-    // dl=null;
-    // localStorage.setItem("sign",JSON.stringify(dl))
-    localStorage.clear()
+    let dl=JSON.parse(localStorage.getItem("sign"));
+    dl=null;
+    localStorage.setItem("sign",JSON.stringify(dl))
+    // localStorage.clear()
 
 
     window.location.href="index.html"
