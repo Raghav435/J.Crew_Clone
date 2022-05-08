@@ -9,6 +9,10 @@ let dltfromstorage=()=>{
     let dl=JSON.parse(localStorage.getItem("sign"));
     dl=null;
     localStorage.setItem("sign",JSON.stringify(dl))
+    localStorage.removeItem("cart")
+    // let dltc=JSON.parse(localStorage.getItem("cart"));
+    // dltc=[];
+    // localStorage.setItem("cart",JSON.stringify(dltc))
     // localStorage.clear()
 
 
