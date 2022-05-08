@@ -85,15 +85,25 @@ btn.addEventListener("click",()=>{
 
     div2.setAttribute("id","color")
     let img1=document.createElement("img")
+    img1.setAttribute("class","col")
     let img2=document.createElement("img")
+    img2.setAttribute("class","col")
     let img3=document.createElement("img")
+    img3.setAttribute("class","col")
     let img4=document.createElement("img")
+    img4.setAttribute("class","col")
     let img5=document.createElement("img")
+    img5.setAttribute("class","col")
     let img6=document.createElement("img")
+    img6.setAttribute("class","col")
     let img7=document.createElement("img")
+    img7.setAttribute("class","col")
     let img8=document.createElement("img")
+    img8.setAttribute("class","col")
     let img9=document.createElement("img")
+    img9.setAttribute("class","col")
     let img10=document.createElement("img")
+    img10.setAttribute("class","col")
 
 img1.src="https://www.jcrew.com/s7-img-facade/J1785_YL5858_sw?$pdp_sw20$"
 img2.src="https://www.jcrew.com/s7-img-facade/J1785_YL5427_sw?$pdp_sw20$"
