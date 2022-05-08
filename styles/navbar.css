@@ -71,7 +71,8 @@
     
 }
 #navbar p{
-    font-size:15px;
+    font-size:14px;
+    font-weight: bold;
     padding: 5px 0px;
 }
 #navbar p:hover{
@@ -252,4 +253,27 @@
 }
 #navimg{
     cursor: pointer;
+}
+#acc{
+    display: none;
+    justify-content: end;
+   
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+   
+}
+#acc1{
+    margin-right: 100px;
+    background-color: white;
+    padding: 10px 40px;
+    font-size: 15px;
+    z-index: 1000;
+}
+#dlt:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

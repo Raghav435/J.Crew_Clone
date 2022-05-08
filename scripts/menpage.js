@@ -24,7 +24,7 @@ let setdata=(ele)=>{
   data.push(ele)
 //   alert("Item Added to Cart")
     localStorage.setItem("cart",JSON.stringify(data))
-    let x=JSON.parse(localStorage.getItem("cart"))
+    let x=JSON.parse(localStorage.getItem("cart"))||[]
     document.getElementById("navlen").innerText=x.length;
 }
 
