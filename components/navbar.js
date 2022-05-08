@@ -491,6 +491,16 @@ let navbar=()=>{
         <p><a href="">New to Sale</a></p>
         <p><a href="">Over 60% Off</a></p>
     </div>
+</div>
+<div id="acc">
+    <div id="acc1">
+        
+        <p><a href="">My Profile</a></p>
+        <p><a href="">My Orders</a></p>
+        <p><a href="">Bookmarks</a></p>
+        <p><a href="">My Wallet</a></p>
+        <p id="dlt">Sign out</p>
+    </div>
 </div>`;
 }
 

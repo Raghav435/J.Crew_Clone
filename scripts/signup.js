@@ -41,6 +41,8 @@ let register = (event) =>{
     alert(`Registered sucessfully as ${form_data.email}`);
 
     localStorage.setItem("UserSignCreds",JSON.stringify(userData));
+
+    localStorage.setItem("sign",JSON.stringify("New Account"))
     
     
     window.location.href = "index.html";
