@@ -25,6 +25,9 @@ let setdata=(ele)=>{
 //   alert("Item Added to Cart")
     localStorage.setItem("cart",JSON.stringify(data))
     let x=JSON.parse(localStorage.getItem("cart"))
+    if(x.length==1){
+        window.location.reload()
+    }
     document.getElementById("navlen").innerText=x.length;
 }
 

@@ -24,9 +24,12 @@ let btnmove=(btn)=>{
 let data=JSON.parse(localStorage.getItem("cart"))||[];
 let setdata=(ele)=>{
   data.push(ele)
-  
+    
     localStorage.setItem("cart",JSON.stringify(data))
     let x=JSON.parse(localStorage.getItem("cart"))
+    if(x.length==1){
+        window.location.reload()
+    }
     document.getElementById("navlen").innerText=x.length;
 }
 
