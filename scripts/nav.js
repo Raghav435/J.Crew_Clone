@@ -44,6 +44,13 @@ document.getElementById("navbarsearch").addEventListener("keypress", function(ev
 
 })
 
+let gotoindex=()=>{
+    window.location.href="index.html"
+
+}
+document.getElementById("navimg").addEventListener("click",gotoindex);
+
+
 let myNew=()=>{
     let x=document.getElementById("new")
     // x.style.display="block"
@@ -337,10 +344,5 @@ if(c.length>0){
 
 
 
-let gotoindex=()=>{
-    window.location.href="index.html"
-
-}
-document.getElementById("navimg").addEventListener("click",gotoindex);
 
 
