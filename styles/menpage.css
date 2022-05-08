@@ -148,6 +148,12 @@ h4{
     border-radius: 50%;
     width: 32px;
 }
+#color>img:hover{
+    border: 2px solid black;
+    margin: -5px;
+    padding: 2px;
+    cursor: pointer;
+}
 .col:hover{
     border: 2px solid black;
     margin: -5px;
