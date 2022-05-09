@@ -26,8 +26,8 @@ document.getElementById("dlt").addEventListener("click",dltfromstorage)
 
 let query=JSON.parse(localStorage.getItem("sign"))
 console.log(query)
-if(query=="New Account"){
-    document.getElementById("navacc").innerHTML="New Account";
+if(query=="My Account"){
+    document.getElementById("navacc").innerHTML="My Account";
 }else{
     document.getElementById("navacc").innerHTML="Sign In"
 }
