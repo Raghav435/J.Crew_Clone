@@ -39,7 +39,7 @@ let login = (event) =>{
           }
           if(check){
               alert("Login Successfull");
-              localStorage.setItem("sign",JSON.stringify("New Account"))
+              localStorage.setItem("sign",JSON.stringify("My Account"))
               window.location.href = "index.html";
           }
           else{
