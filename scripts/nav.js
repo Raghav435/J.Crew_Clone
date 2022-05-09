@@ -328,7 +328,7 @@ document.getElementById("navsale").addEventListener("mouseover",mysale);
 document.getElementById("sale").addEventListener("mouseleave",hidesale);
 
 let it=document.getElementById("navacc").innerText
-if(it=="New Account"){
+if(it=="My Account"){
     document.getElementById("navacc").addEventListener("mouseover",myacc);
     document.getElementById("acc").addEventListener("mouseleave",hideacc);
 }

@@ -42,7 +42,7 @@ let register = (event) =>{
 
     localStorage.setItem("UserSignCreds",JSON.stringify(userData));
 
-    localStorage.setItem("sign",JSON.stringify("New Account"))
+    localStorage.setItem("sign",JSON.stringify("My Account"))
     
     
     window.location.href = "index.html";
